@@ -1,4 +1,4 @@
-import Head from "next/head";
+oimport Head from "next/head";
 import NavBar from "../../components/nav/navbar";
 
 import SectionCards from "../../components/card/section-cards";
@@ -31,7 +31,7 @@ const MyList = ({ myListVideos }) => {
   return (
     <div>
       <Head>
-        <title>My list</title>
+        <title>My Video list</title>
       </Head>
       <main className={styles.main}>
         <NavBar />
